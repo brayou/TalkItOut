@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="talkitout.talkitout.Article3"
+    tools:showIn="@layout/activity_article3">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:scrollbars="none" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CDC: How is Smoking Related to Asthma?
+\n\nIf you have asthma, an asthma attack can occur when something irritates your airways and triggers an attack. Your triggers might be different from other people’s triggers.
+\n\nTobacco smoke is one of the most common asthma triggers. Tobacco smoke—including secondhand smoke—is unhealthy for everyone, especially people with asthma. Secondhand smoke is a mixture of gases and fine particles that includes:
+\n\n     Smoke from a burning cigarette, cigar, or pipe tip
+\n\n     Smoke that has been exhaled (breathed out) by someone who smokes
+\n\nSecondhand smoke contains more than 7,000 chemicals, including hundreds that are toxic and about 70 that can cause cancer.
+\n\nIf you have asthma, it’s important that you avoid exposure to secondhand smoke.
+\n\nIf you are among the 21% of U.S. adults who have asthma and smoke, quit smoking."
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp" />
+
+    </ScrollView>
+</RelativeLayout>

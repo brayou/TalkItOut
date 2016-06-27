@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="talkitout.talkitout.Article5"
+    tools:showIn="@layout/activity_article5">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:scrollbars="none" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stories of Recovery From Addiction:  Pins In My Ears
+\n\nFor years I had tried several different ways to stop drinking, including physical treatment and home detox. All the treatments worked for short spans but deep down I knew I would relapse. The feelgood factor soon disappeared and after each time my drinking and behaviour got worse. I had a great job with a very understanding boss but after eight months of rapid decline I walked away from my job as I couldn’t do it any more. That was the only time I actually thought of someone else and not just me. By this time my wife had left me. My kids were torn between hate and concern for me. For a period of two months I drank every day. I had moved to my mother’s house and she phoned an AA helpline. They put me in touch with a rehab centre. They assessed me but by this time I had totally given up hope. I did not have the guts to commit suicide, so I’d decided to drink myself to death, but I agreed to give it a try.
+\n\nIn pre-entry I was given a key worker for one-to-one sessions, and we also had groups. But the main turning point for me was a treatment called ACI detox where pins are placed in particular areas in both ears. You’re asked to relax. Lights are turned off and soothing music is played. For the first couple of treatments my head was scrambled.
+\n\nI found it hard to relax but I felt something different was happening to me. After a few days treatment I began to let go. My mind just opened up and my thoughts seemed to go off on their own. On two occasions tears flooded uncontrollably from my eyes. My mind took me to a place where I felt safe and through time this place completely cleansed away the crap from the past. I still do ACI detox and go to this place in my mind and it is very comforting. This is only my experience: it does not work for everyone, but it was a major turning point for me.
+\n\nAfter pre-entry I was ready to move to the main programme where you’re asked to do five different modules, including anger management and Cognitive Behavioural Therapy (CBT). I went to yoga classes and was introduced to meditation and tai-chi. I now go to tai-chi regularly as it helps me in both mind and body. I do voluntary work with people who have addictions and other problems. My goal is to work in social care, because I have been given a new lease of life and I want to give something back. Once convinced I was a low-life scumbag waiting to die, now I’m allowed to live with a purpose. I’m also heavily involved with the AA. I’m not in a race though. I take my time, and I’m prepared to work hard. I talk to people and everybody listens.
+\n\nI was fortunate I had my family and a couple of true friends for support. My ex-wife and I get on better now than we have for a long time and my kids are proud of me. I’m fitter than I’ve been in years. I’ve run a few 5k’s which I never dreamt I could do. I plan to do the Southern Upland Way and the Edinburgh 10k this year. I love my life. I believe in myself and I care for others. Helping others helps me keep ahead of the game. I have little money but I get by. I can go to sleep at night knowing that all the people I hurt in the past are now free of the person I was. I wake up in the morning remembering what I did the night before. I hope I’ve helped someone by writing this as it’s from the heart, it’s not fiction. Drink and drugs altered my true perspective of who I really was. Now I will not give up on myself and I will not give up on anybody who asks for my help.
+\n\nSince writing this I have been accepted to do a Higher National Certificate in social care. I will be starting work as a full time support worker. I also have a wee car. My life is finally taking off now I feel I’m being guided. I don’t have everything I want. Who does? But I have contentment and everything I need."
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp" />
+
+    </ScrollView>
+</RelativeLayout>

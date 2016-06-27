@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="talkitout.talkitout.Article2"
+    tools:showIn="@layout/activity_article2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:scrollbars="none" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DrugFacts: Cigarettes and Other Tobacco Products
+\n\nTobacco use is the leading preventable cause of disease, disability, and death in the United States. According to the Centers for Disease Control and Prevention (CDC), cigarette smoking results in more than 480,000 premature deaths in the United States each year—about 1 in every 5 U.S. deaths—and an additional 16 million people suffer with a serious illness caused by smoking. In fact, for every one person who dies from smoking, about 30 more suffer from at least one serious tobacco-related illness.
+\n\nThe harmful effects of smoking extend far beyond the smoker. Exposure to secondhand smoke can cause serious diseases and death. Each year, an estimated 88 million nonsmoking Americans are regularly exposed to secondhand smoke and almost 41,000 nonsmokers die from diseases caused by secondhand smoke exposure.
+\n\nHow Does Tobacco Affect the Brain?
+\n\nCigarettes and other forms of tobacco—including cigars, pipe tobacco, snuff, and chewing tobacco—contain the addictive drug nicotine. Nicotine is readily absorbed into the bloodstream when a tobacco product is chewed, inhaled, or smoked. A typical smoker will take 10 puffs on a cigarette over the period of about 5 minutes that the cigarette is lit. Thus, a person who smokes about 1 pack (25 cigarettes) daily gets 250 “hits” of nicotine each day.
+\n\nUpon entering the bloodstream, nicotine immediately stimulates the adrenal glands to release the hormone epinephrine (adrenaline). Epinephrine stimulates the central nervous system and increases blood pressure, respiration, and heart rate.
+\n\nSimilar to other addictive drugs like cocaine and heroin, nicotine increases levels of the neurotransmitter dopamine, which affects the brain pathways that control reward and pleasure. For many tobacco users, long-term brain changes induced by continued nicotine exposure result in addiction—a condition of compulsive drug seeking and use, even in the face of negative consequences.  Studies suggest that additional compounds in tobacco smoke, such as acetaldehyde, may enhance nicotine’s effects on the brain.3
+\n\nWhen an addicted user tries to quit, he or she experiences withdrawal symptoms including irritability, attention difficulties, sleep disturbances, increased appetite, and powerful cravings for tobacco. Treatments can help smokers manage these symptoms and improve the likelihood of successfully quitting.
+"
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp" />
+
+    </ScrollView>
+</RelativeLayout>

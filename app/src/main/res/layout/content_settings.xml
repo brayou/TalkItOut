@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="talkitout.talkitout.Settings"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:showIn="@layout/activity_settings">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabHost"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/Alerts"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Settings"
+                        android:id="@+id/settingstitle"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="CHANGE FREQUENCY OF"
+                        android:id="@+id/firstline"
+                        android:layout_marginTop="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Quotes"
+                        android:id="@+id/quotes"
+                        android:layout_marginTop="20dp" />
+
+                    <Spinner
+                        android:id="@+id/quotesmenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:entries="@array/myoptions"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown"
+                        android:clickable="false"
+                        android:layout_weight="0.05"> </Spinner>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Alternatives to Smoking"
+                        android:id="@+id/alternatives"
+                        android:layout_marginTop="10dp" />
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:id="@+id/alternativesmenu"
+                        android:layout_gravity="center_horizontal"
+                        android:entries="@array/myoptions"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown"
+                        android:clickable="false"
+                        android:layout_weight="0.05" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Sobriety"
+                        android:id="@+id/sobriety"
+                        android:layout_marginTop="10dp" />
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:id="@+id/sobrietymenu"
+                        android:entries="@array/myoptions"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown"
+                        android:clickable="false"
+                        android:layout_weight="0.04" />
+
+                    <Button
+                        android:layout_width="143dp"
+                        android:layout_height="wrap_content"
+                        android:text="SAVE"
+                        android:id="@+id/savebutton"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0.08"
+                        android:enabled="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Account"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Change Password"
+                        android:id="@+id/passchange"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:enabled="true" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stay logged in"
+                        android:id="@+id/loggedin"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sign Out"
+                        android:id="@+id/signout"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:enabled="true" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SAVE"
+                        android:id="@+id/savingbtn"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:enabled="true" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Talk_It_Out"
+    tools:showIn="@layout/activity_talk_it_out">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:text="@string/randomChat"
+        android:id="@+id/button"
+        android:contextClickable="false"
+        android:textColor="@color/accent_material_light"
+        android:textAllCaps="false"
+        android:textSize="35dp"
+        android:background="@drawable/mybutton_randomchat"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Bob12"
+        android:id="@+id/button_Bob12"
+        android:background="@drawable/mybutton"
+        android:clickable="true"
+        android:enabled="true"
+        android:textSize="30dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:textAllCaps="false"
+        android:paddingLeft="30dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignStart="@+id/textView_Buddies"
+        android:layout_alignLeft="@+id/textView_Buddies"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Buddies"
+        android:id="@+id/textView_Buddies"
+        android:textSize="30dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_above="@+id/button_Bob12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Mary59"
+        android:id="@+id/button3"
+        android:background="@drawable/mybutton_green"
+        android:clickable="true"
+        android:enabled="true"
+        android:textSize="30dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:textAllCaps="false"
+        android:paddingLeft="30dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignStart="@+id/button_Bob12"
+        android:layout_alignLeft="@+id/button_Bob12"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Sean95"
+        android:id="@+id/button4"
+        android:background="@drawable/mybutton"
+        android:clickable="true"
+        android:enabled="true"
+        android:textSize="30dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:paddingLeft="30dp"
+        android:textAllCaps="false"
+        android:layout_above="@+id/textView"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignRight="@+id/button3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView"
+        android:background="#a6a1a1"
+        android:text="New Buddies will be shown here!"
+        android:textColor="#000000"
+        android:textSize="17.5dp"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+
+
+</RelativeLayout>

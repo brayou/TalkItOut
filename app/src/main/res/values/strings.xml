@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TalkItOut</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_resources">Resources</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_daily_log">DailyLog</string>
+    <string-array name="myoptions">
+        <item>Every 4 hours</item>
+        <item>Once a day</item>
+        <item>Once a week</item>
+    </string-array>
+    <string name="title_activity_article1">Article1</string>
+    <string name="title_activity_article2">Article2</string>
+    <string name="title_activity_article3">Article3</string>
+    <string name="title_activity_article4">Article4</string>
+    <string name="title_activity_article5">Article5</string>
+    <string name="title_activity_progress">Progress</string>
+    <string name="randomChat">Random Chat</string>
+</resources>

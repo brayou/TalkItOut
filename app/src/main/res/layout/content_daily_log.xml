@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="talkitout.talkitout.DailyLog"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_daily_log"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:text="Daily Log"
+        android:id="@+id/textView45"
+        android:textSize="24dp"
+        android:background="#0008ff"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Did you smoke today?"
+        android:id="@+id/firstquestion"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:id="@+id/yesbutton"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:id="@+id/nobutton"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If yes, how many cigarettes?"
+        android:id="@+id/secondquestion"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/numcigs"
+        android:layout_gravity="left"
+        android:hint="Number" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How tempted were you to smoke today?"
+        android:id="@+id/thirdquestion"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp" />
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_marginTop="5dp"
+        android:clickable="false"
+        android:scrollIndicators="start|end"
+        android:splitTrack="false"
+        android:max="4"
+        android:progress="0"
+        android:secondaryProgress="0"
+        />
+    //TextViews for SeekBarlegend
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/tvLabel1"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not at all" />
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Moderately" />
+        <TextView
+            android:id="@+id/tvLabel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:text="Very much" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="What did you do to avoid smoking today?"
+        android:id="@+id/fourthquestion"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/avoidanswer"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:hint="Free response"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:enabled="false" />
+</LinearLayout>

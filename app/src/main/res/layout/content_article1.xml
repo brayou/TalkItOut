@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="talkitout.talkitout.Article1"
+    tools:showIn="@layout/activity_article1">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:scrollbars="none" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BBC: Tobacco 'kills two in three smokers'\n\nThe study tracked more than 200,000 Australian smokers and non-smokers above the age of 45 over six years.
+Mortality risk went up with cigarette use, BMC Medicine reports. Smoking 10 cigarettes a day doubled the risk, while 20-a-day smokers were four to five times more likely to die.
+Although someone who smokes could lead a long life, their habit makes this less likely. Smoking increases the risk of a multitude of health problems, including heart disease and cancer.
+Cancer Research UK currently advises that half of all long-term smokers eventually die from cancer or other smoking-related illnesses.
+But recent evidence suggests the figure may be higher. Newer studies in UK women, British doctors and American Cancer Society volunteers have put the figure at up to 67%, says Prof Emily Banks, lead author of the Australian study. We knew smoking was bad, but we now have direct independent evidence that confirms the disturbing findings that have been emerging internationally. Figures on Smoking in the UK: 10 million people smoke and 200,000 children aged 11 to 15 start smoking each year
+\n\n''Even with the very low rates of smoking that we have in Australia, we found that smokers have around threefold the risk of premature death of those who have never smoked. We also found smokers will die an estimated 10 years earlier than non-smokers,'' she said.
+\n\nGeorge Butterworth, tobacco policy manager at Cancer Research UK, said: ''It's a real concern that the devastation caused by smoking may be even greater than we previously thought.
+\n\n''Earlier research has shown, as a conservative estimate, one in two long-term smokers die from smoking-related diseases in the UK, but these new Australian figures show a higher risk.
+\n\n''Smoking habits differ between Australia and the UK [in terms of] how much people smoke and the age they start, so we can't conclude that the two-in-three figure necessarily applies to the UK.''
+\n\nIn Australia, about 13% of adults smoke. In the UK, the figure is about 20%. Stopping smoking can bring a person's health risks back down.
+\n\nTen years after quitting, risk of lung cancer falls to half that of a smoker and risk of heart attack falls to the same as someone who has never smoked, according to NHS Smokefree."
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp" />
+
+    </ScrollView>
+</RelativeLayout>

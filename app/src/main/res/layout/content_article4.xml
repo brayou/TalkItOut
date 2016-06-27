@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="talkitout.talkitout.Article4"
+    tools:showIn="@layout/activity_article4">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:scrollbars="none" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stories of Recovery From Addiction: Every tiny little thing
+\n\nI took party drugs occasionally at weekends, and then I entered into a relationship with someone who had a long term coke habit. Within six months, I had a regular coke habit too. Taking drugs together normalised it, and did a lot to disguise the unhappiness.
+\n\nAfter four years together, I left him. In the initial two weeks, I went somewhere completely different, out of the environment where drug-taking was an everyday occurrence, which was my work place. I didn’t go to work for a month. It was Christmas, normally time for lots of drinking and drugs. I went to stay with some friends who live in the country instead. They grow their own vegetables, have some chickens, and a couple of horses.
+\n\nWhen the coke ran out after a few days, I realised how abnormal my behaviour had become. I’d felt uncomfortable sneaking off and taking it when no-one else did. And with no partner in crime, my sudden change in demeanour, becoming loud and chatty, was really out of place in this peaceful environment. I decided not to replenish my stash of drugs, and kept busy helping out around the farm.
+\n\nI tried baking bread. I started quite late in the evening, when there were lots of people around. They all stayed up, waiting for the bread to come out of the oven. The joy and pleasure I got out of other people praising my achievements was massive, and really helpful in maintaining my recovery. This made me feel good, as it got me further away from the negative feelings I had when I was taking drugs and was letting people down.
+\n\nWhen I got home, because I wasn’t spending all my time sleeping, taking drugs, and recovering from the effects, I had more time for the positive activities I used to enjoy that weren’t difficult to get to or expensive. I even tried knitting. I’d done a little at school and with the help of a friend I was soon designing my own hats, and giving them as gifts. It felt great to give something I’d made to friends and family.
+\n\nI started enjoying cooking and having regular meals. Previously, the house was a mess - dishes in the sink, stuff everywhere. I used to live off take-aways. Now I keep on top of things, the kitchen is tidy and I love inventing new recipes and having friends over for dinner. I’ve become more aware of family events and it feels good being able to take part, instead of feeling guilty about missing them. Being able to talk to friends and family without having to borrow money from them, or being selfish and manipulative, has boosted my self esteem. By not committing to the drug, I was able to commit to family and friends.
+\n\nI realised that I was happier without the drugs and that if it was easy enough to not have any for two weeks and then a month, then there was no reason to seek them out at all. Always wanting something that I couldn’t afford, and shouldn’t have wanted, was not a happy place to be. It was a kind of fake happiness. So, I stopped wanting it. It’s all about stopping wanting it.
+\n\nDrug taking still goes on around me in my work, but I am more aware of where it is likely to happen and I stay clear. I have changed my habits and routine. Now I don’t go to the pub with my workmates, I just go home.
+\n\nMy financial gain was immediate. Taking drugs masked the fact I wasn’t coping with my finances, but that fact was always niggling away at the back of my mind. So I was never relaxed. The peace of mind I’ve now got from being in control of my finances helps me stay off drugs. Not only could I start paying off the bills, but I could buy that pair of shoes I needed, go out for dinner, go on holiday, or treat my mum to lunch. It didn’t take me long to see I got far more pleasure from these things.
+\n\nWhilst taking drugs, it’s very easy to think it’s all good fun at the time. But every tiny little thing that now makes me feel good about myself, every time I do something nice for someone else, takes me further away from that lifestyle and to a much happier place. I’m a nicer person, more patient, less judgemental, more thoughtful, approachable and relaxed. These are my incentives for staying off drugs."
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp" />
+
+    </ScrollView>
+</RelativeLayout>

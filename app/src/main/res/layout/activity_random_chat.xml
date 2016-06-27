@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mike96"
+        android:id="@+id/textView2"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:background="#9eacfb"
+        android:paddingTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:text="New Chat"
+            android:id="@+id/button5"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:enabled="true"
+            android:background="#76f7fb" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="Send Buddy Request"
+            android:id="@+id/buttonSendRandomRequest"
+            android:textAllCaps="false"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="right"
+            android:layout_alignBottom="@+id/button5"
+            android:enabled="true"
+            android:background="#6af95d" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Report User"
+            android:textAllCaps="false"
+            android:layout_below="@+id/textView2"
+            android:layout_alignBottom="@+id/buttonSendRandomRequest"
+            android:clickable="false"
+            android:enabled="true"
+            android:background="#fe6868"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listViewRandom1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/Randomform"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/RandomchatText"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#dd99ff"
+            android:layout_toLeftOf="@+id/RandombuttonSend" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textSize="30dp"
+            android:textAllCaps="false"
+            android:id="@+id/RandombuttonSend"
+            android:layout_alignBottom="@+id/RandomchatText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#8cff1a" />
+    </RelativeLayout>
+
+</LinearLayout>

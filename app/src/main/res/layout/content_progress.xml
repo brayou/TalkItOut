@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="talkitout.talkitout.Progress"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabHost"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/Calendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="234dp"
+                            android:id="@+id/scrollView"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentTop="true">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TableLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="30dp"
+                                    android:paddingLeft="22dp"
+                                    android:baselineAligned="false">
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp">
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="1"
+                                            android:id="@+id/textView2"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:background="@drawable/back"
+                                            android:phoneNumber="false"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="2"
+                                            android:id="@+id/textView3"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="3"
+                                            android:id="@+id/textView4"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="4"
+                                            android:id="@+id/textView5"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="5"
+                                            android:id="@+id/textView6"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="6"
+                                            android:id="@+id/textView7"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="7"
+                                            android:id="@+id/textView8"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:clickable="false">
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="8"
+                                            android:id="@+id/textView9"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:background="@drawable/back"
+                                            android:phoneNumber="false"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="9"
+                                            android:id="@+id/textView10"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="10"
+                                            android:id="@+id/textView11"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="11"
+                                            android:id="@+id/textView12"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="12"
+                                            android:id="@+id/textView13"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="13"
+                                            android:id="@+id/textView14"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="14"
+                                            android:id="@+id/textView15"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:clickable="false">
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="15"
+                                            android:id="@+id/textView16"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:background="@drawable/back"
+                                            android:phoneNumber="false"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="16"
+                                            android:id="@+id/textView17"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="17"
+                                            android:id="@+id/textView18"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="18"
+                                            android:id="@+id/textView19"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="19"
+                                            android:id="@+id/textView20"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="20"
+                                            android:id="@+id/textView21"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="21"
+                                            android:id="@+id/textView22"
+                                            android:autoText="true"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:clickable="false">
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="22"
+                                            android:id="@+id/textView23"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:background="@drawable/back"
+                                            android:phoneNumber="false"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="23"
+                                            android:id="@+id/textView24"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="24"
+                                            android:id="@+id/textView25"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="25"
+                                            android:id="@+id/textView26"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="26"
+                                            android:id="@+id/textView27"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="27"
+                                            android:id="@+id/textView28"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="28"
+                                            android:id="@+id/textView29"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/back"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;back&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick0" />
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:clickable="false">
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="29"
+                                            android:id="@+id/textView30"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:background="@drawable/backg"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;backg&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick29" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="30"
+                                            android:id="@+id/textView31"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/backr"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;backr&quot;"
+                                            android:enabled="true"
+                                            android:onClick="onClick30" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:text="31"
+                                            android:id="@+id/textView32"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:background="@drawable/backg"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:hint="&quot;backg&quot;"
+                                            android:focusableInTouchMode="true"
+                                            android:enabled="true"
+                                            android:onClick="onClick31" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:id="@+id/textView33"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:enabled="true" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:id="@+id/textView34"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:enabled="true" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:id="@+id/textView35"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:enabled="true" />
+
+                                        <TextView
+                                            android:layout_width="45dp"
+                                            android:layout_height="45dp"
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:id="@+id/textView36"
+                                            android:autoText="false"
+                                            android:clickable="true"
+                                            android:textSize="16sp"
+                                            android:password="false"
+                                            android:phoneNumber="false"
+                                            android:gravity="center_vertical|right"
+                                            android:paddingRight="4dp"
+                                            android:paddingBottom="10dp"
+                                            android:enabled="true" />
+                                    </TableRow>
+                                </TableLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="December"
+                                    android:id="@+id/textView37"
+                                    android:textStyle="bold"
+                                    android:typeface="serif"
+                                    android:textSize="20sp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentRight="false"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_alignParentBottom="false" />
+                            </RelativeLayout>
+                        </ScrollView>
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="234dp"
+                            android:id="@+id/scrollView2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/scrollView">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:text="Did you smoke today?"
+                                    android:id="@+id/firstquestion"
+                                    android:layout_marginTop="30dp"
+                                    android:layout_gravity="left"
+                                    android:layout_alignParentTop="true" />
+
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Yes"
+                                    android:id="@+id/yesbutton"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_gravity="left"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/firstquestion"
+                                    android:checked="false" />
+
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No"
+                                    android:id="@+id/nobutton"
+                                    android:layout_gravity="left"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/yesbutton" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:text="If yes, how many cigarettes?"
+                                    android:id="@+id/secondquestion"
+                                    android:layout_gravity="left"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/nobutton" />
+
+                                <EditText
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="number"
+                                    android:ems="10"
+                                    android:id="@+id/numcigs"
+                                    android:layout_gravity="left"
+                                    android:hint="Number"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/secondquestion" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:text="How tempted were you to smoke today?"
+                                    android:id="@+id/thirdquestion"
+                                    android:layout_gravity="left"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/numcigs" />
+
+                                <SeekBar
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/seekBar"
+                                    android:layout_marginTop="5dp"
+                                    android:clickable="false"
+                                    android:scrollIndicators="start|end"
+                                    android:splitTrack="false"
+                                    android:max="4"
+                                    android:progress="0"
+                                    android:secondaryProgress="0"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/thirdquestion" />
+                                //TextViews for SeekBarlegend
+                                <RelativeLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:orientation="horizontal"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/seekBar">
+                                    <TextView
+                                        android:id="@+id/tvLabel1"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Not at all" />
+                                    <TextView
+                                        android:id="@+id/tvLabel2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="Moderately" />
+                                    <TextView
+                                        android:id="@+id/tvLabel3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:paddingRight="10dp"
+                                        android:text="Very much" />
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:text="What did you do to avoid smoking today?"
+                                    android:id="@+id/fourthquestion"
+                                    android:layout_gravity="left"
+                                    android:layout_marginTop="30dp"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/seekBar" />
+
+                                <EditText
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/avoidanswer"
+                                    android:layout_gravity="left"
+                                    android:layout_marginTop="5dp"
+                                    android:hint="Free response"
+                                    android:inputType="text"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/fourthquestion" />
+
+                                <Button
+                                    android:layout_width="112dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="SUBMIT"
+                                    android:id="@+id/submit"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="5dp"
+                                    android:enabled="false"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_below="@+id/avoidanswer" />
+                            </RelativeLayout>
+                        </ScrollView>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Days Clean:"
+                            android:id="@+id/textView"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="false"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="50dp"
+                            android:autoText="false"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:typeface="sans"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="0"
+                            android:id="@+id/textView38"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentLeft="false"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="50dp"
+                            android:autoText="false"
+                            android:layout_marginLeft="65dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@+id/textView"
+                            android:layout_centerHorizontal="true"
+                            android:typeface="sans"
+                            android:singleLine="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Smoke-Free Days:"
+                            android:id="@+id/textView39"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentLeft="false"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="50dp"
+                            android:autoText="false"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_below="@+id/textView38"
+                            android:singleLine="true"
+                            android:typeface="sans"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="1"
+                            android:id="@+id/textView40"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentLeft="false"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="50dp"
+                            android:autoText="false"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@+id/textView39"
+                            android:layout_marginLeft="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Percentage of Days Smoke-Free:"
+                            android:id="@+id/textView41"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentLeft="false"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="50dp"
+                            android:autoText="false"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_below="@+id/textView40"
+                            android:typeface="sans"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="50%"
+                            android:id="@+id/textView43"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentLeft="false"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="50dp"
+                            android:autoText="false"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@+id/textView41"
+                            android:layout_marginLeft="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:typeface="sans"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Most Days Clean:"
+                            android:id="@+id/textView42"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentLeft="false"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="30dp"
+                            android:autoText="false"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_below="@+id/textView43"
+                            android:typeface="sans"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="1"
+                            android:id="@+id/textView44"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentLeft="false"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="30dp"
+                            android:autoText="false"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@+id/textView42"
+                            android:layout_marginLeft="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:typeface="sans"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>
